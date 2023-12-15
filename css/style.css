@@ -542,7 +542,8 @@ label {
     right: 1rem;
     cursor: pointer;
 }
-.overlay .modal .close:hover{
+
+.overlay .modal .close:hover {
     color: var(--main-color);
 }
 
@@ -581,13 +582,15 @@ label {
 }
 
 @media screen and (max-width:672px) {
-    .header-layer-1{
+    .header-layer-1 {
         height: 50px;
     }
-    .header-layer-1 a button{
+
+    .header-layer-1 a button {
         height: 35px;
         font-size: 14px;
     }
+
     .hero-content {
         width: 90%;
     }
@@ -664,6 +667,7 @@ label {
         height: 40px;
         width: 100%;
     }
+
     .overlay .modal {
         width: 90%;
     }
@@ -687,7 +691,24 @@ label {
 
     .rentals-form {
         width: 100%;
-    }.brand{
-        font-size: 17;
+    }
+
+    .brand {
+        font-size: 17px;
     }
 }
+
+@media screen and (max-width:347px){
+    .header-layer-2 nav ul a {
+        font-size: 12px;
+        padding: .3rem .7rem;
+    }
+    .brand {
+        font-size: 14px;
+    }
+    .header-layer-1 a button {
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
